@@ -13,6 +13,7 @@ function agregarAmigo() {
         alert("Debe llenar este campo");
         return;
     }
+    limpiarResultado();
     amigos.push(nombre);
     
     actualizarLista();
@@ -40,3 +41,8 @@ function sortearAmigo(){
     amigos.length = 0;
 }
 
+function limpiarResultado(){
+    if (amigos.length==0){
+        resultado.innerHTML="";
+    }
+}
