@@ -1,4 +1,4 @@
-##Juego del Amigo Secreto
+## Juego del Amigo Secreto
 ## Descripción del Proyecto 
 Este Proyecto consiste en un juego para la selección de un amigo de manera aleatoria, implemantado con HTML, CSS, Javascript. El usuario puede ingresar nombres en un formulario y, tras guardarlos se muestra una lista dinámica con dichos nombres. Al hacer clic en el botón de sorteo, se selecciona uno de los nombres ingresados para asignarle el rol de amigo secreto.
 
